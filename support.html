@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Middle-earth Explorer</title>
+  <style>
+    :root { --gold: #c9a84c; --parchment: #f5f0e1; --bg: #1a1510; }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--bg); color: var(--parchment);
+      line-height: 1.8; -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { color: var(--parchment); }
+    nav {
+      position: fixed; top: 0; width: 100%; z-index: 100;
+      background: rgba(26, 21, 16, 0.92); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+      padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+    }
+    nav .logo { font-size: 1.1rem; font-weight: bold; color: var(--gold); letter-spacing: 0.05em; }
+    nav .links { display: flex; gap: 1.5rem; font-size: 0.9rem; }
+    nav .links a { color: var(--parchment); opacity: 0.7; transition: opacity 0.2s; }
+    nav .links a:hover { opacity: 1; }
+    main {
+      max-width: 700px; margin: 0 auto; padding: 7rem 2rem 4rem;
+    }
+    h1 { font-size: 2rem; color: var(--gold); font-weight: normal; margin-bottom: 2rem; }
+    h2 { font-size: 1.2rem; color: var(--gold); font-weight: normal; margin: 2rem 0 0.75rem; }
+    p, li { font-size: 0.95rem; opacity: 0.8; margin-bottom: 1rem; }
+    ul { padding-left: 1.5rem; }
+    .contact-box {
+      background: rgba(201, 168, 76, 0.06);
+      border: 1px solid rgba(201, 168, 76, 0.15);
+      border-radius: 12px; padding: 2rem; margin: 2rem 0;
+      text-align: center;
+    }
+    .contact-box a {
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center; padding: 3rem 2rem;
+      border-top: 1px solid rgba(201, 168, 76, 0.1);
+      font-size: 0.85rem; opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="logo" href="index.html">Middle-earth Explorer</a>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Support</h1>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h2>Does the app require an internet connection?</h2>
+    <p>No. Middle-earth Explorer works completely offline. All map data, events, and character information are included in the app.</p>
+
+    <h2>Is the app really free?</h2>
+    <p>Yes. Middle-earth Explorer is completely free with no ads, no in-app purchases, and no subscriptions.</p>
+
+    <h2>Does the app collect any data?</h2>
+    <p>No. We collect zero data. Your bookmarks and preferences stay on your device. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+    <h2>How do I restore my bookmarks?</h2>
+    <p>Bookmarks are stored locally on your device. If you delete and reinstall the app, bookmarks will be lost. We recommend keeping a backup of your device through iCloud or iTunes.</p>
+
+    <h2>The app is not available in my language</h2>
+    <p>Middle-earth Explorer currently supports 31 languages. If your language is not included, please reach out and let us know — we're always looking to expand.</p>
+
+    <h2>Get in Touch</h2>
+    <div class="contact-box">
+      <p>Have a question, bug report, or feature request?</p>
+      <p style="margin-top: 0.5rem;"><a href="mailto:alp@ozcan.me">alp@ozcan.me</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alp Ozcan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
