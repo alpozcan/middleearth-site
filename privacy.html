@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — Middle-earth Explorer</title>
+  <title>Privacy Policy | Middle-earth Explorer</title>
   <style>
     :root { --gold: #c9a84c; --parchment: #f5f0e1; --bg: #1a1510; }
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -51,35 +51,108 @@
 
   <main>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: March 4, 2026</p>
+    <p class="updated">Last updated: September 25, 2026</p>
 
     <h2>Overview</h2>
-    <p>Middle-earth Explorer is designed with your privacy as a core principle. We do not collect, store, or transmit any personal data. The app qualifies for Apple's "Data Not Collected" privacy label.</p>
-
-    <h2>Data Collection</h2>
-    <p>Middle-earth Explorer does <strong>not</strong> collect any data from you. Specifically:</p>
+    <p>Middle-earth Explorer ("the app") is an unofficial fan app for iPhone made by one independent developer, Alp Ozcan ("I", "me"). This policy covers version 3.0 of the app. It explains what data the app handles, who receives it, why, how long it is kept and how you can say no.</p>
+    <p>The short version:</p>
     <ul>
-      <li>No personal information is collected</li>
-      <li>No usage analytics or tracking</li>
-      <li>No advertising identifiers</li>
-      <li>No third-party analytics SDKs</li>
-      <li>No cookies or web beacons</li>
+      <li>The app has no accounts, no sign-in and no ads.</li>
+      <li>It never asks for your name, email address, phone number or contacts.</li>
+      <li>It does not track you across other companies' apps or websites, and it does not sell data.</li>
+      <li>It sends usage analytics and crash reports tied to a random ID, so I can see what works and fix bugs. Both are on by default, and you can turn each one off in <strong>Profile &gt; Privacy</strong>.</li>
+      <li>Some features ask outside services for content, such as film details, book covers or live events. Those requests go straight from your device to that service.</li>
     </ul>
 
-    <h2>Data Storage</h2>
-    <p>All app data — including your bookmarks, collections, and preferences — is stored locally on your device. Nothing is transmitted to external servers.</p>
+    <h2>Who Is Responsible</h2>
+    <p>The app is made and run by Alp Ozcan, who is responsible for the data described here. You can reach me at <a href="mailto:hi@alp.me">hi@alp.me</a> about anything in this policy.</p>
 
-    <h2>Third-Party Services</h2>
-    <p>Middle-earth Explorer does not integrate any third-party services that collect user data. The app functions entirely offline.</p>
+    <h2>Data That Stays on Your Device</h2>
+    <p>Most of what you do in the app never leaves your iPhone:</p>
+    <ul>
+      <li>Bookmarks, recent searches, Spoiler Shield settings, quiz results, Daily Riddle progress and streaks, New Zealand filming trail check-ins and trip plans, your home city for Events, your app icon choice and your privacy choices are stored on your device.</li>
+      <li>Search runs on your device. When analytics is on, the app records only how many results a search returned, never what you typed.</li>
+      <li>Reminders (Season 3 episodes, the Daily Riddle, On this day, event reminders and city alerts) are local notifications. Your iPhone schedules and shows them; no server is involved. The app asks for notification permission only when you turn a reminder on.</li>
+      <li>Widgets read the same on-device data through an app group on your iPhone.</li>
+      <li>Places and characters can appear in iPhone Search (Spotlight). That index lives on your device.</li>
+      <li>If you save your quiz result card, the app asks for permission to add it to your photo library. This is the only thing the app saves to Photos. It can add photos but cannot see or read your library.</li>
+      <li>If you add an event to your calendar, the app asks for write-only calendar access. It can add the event but cannot read your calendar.</li>
+      <li>If you use "Near me" or "Check in" on the New Zealand filming trail, your approximate location is used on your device to sort sites by distance and confirm a visit. It is not sent anywhere.</li>
+      <li>A cached copy of your Fellowship+ status is stored in your device's Keychain.</li>
+    </ul>
+
+    <h2>iCloud Sync of Journey Progress (Fellowship+)</h2>
+    <p>If you subscribe to Fellowship+, your Journey Order progress (which films, series and books you have marked) syncs between your devices through your own iCloud account, using Apple's iCloud key-value storage. I cannot see this data. Apple stores it under its own privacy policy. If Fellowship+ ends, nothing more is synced, and nothing is deleted from your devices. You can remove the synced copy by turning off iCloud for the app in iOS Settings.</p>
+
+    <h2>Usage Analytics (TelemetryDeck and Statsig)</h2>
+    <p><strong>What:</strong> When "Share usage analytics" is on, the app sends TelemetryDeck short signals such as "a screen was viewed", "a map marker was tapped", "the paywall was shown" or "a purchase finished", with a few details like the screen or content type, the app version, iOS version, device model, language and region, and which App Store product page you installed from. Purchase signals include the plan (monthly or yearly), never payment details.</p>
+    <p><strong>Identifier:</strong> Signals carry a random identifier created for this app on your device. TelemetryDeck hashes it again before storing it. It is not your Apple ID, your advertising identifier or anything that names you.</p>
+    <p><strong>Why:</strong> To learn which features people use and where the app is confusing, so I can improve it. The legal basis is my legitimate interest in running and improving the app. You can object at any time with the switch.</p>
+    <p><strong>Where:</strong> TelemetryDeck is based in Germany and stores data in the EU.</p>
+    <p><strong>Statsig:</strong> The app also uses Statsig to run a short map performance test. Statsig receives a random, app-scoped identifier, which map renderer your device was assigned, and map speed and memory measurements. It never receives your location or anything that names you. While the test runs, the "Share usage analytics" switch does not stop it, and the Privacy page in the app says so. The test ends in October 2026. After that, Statsig will either follow the same switch or be removed from the app, and this policy will be updated. Statsig is based in the United States.</p>
+    <p><strong>How to stop:</strong> Turn off <strong>Profile &gt; Privacy &gt; Share usage analytics</strong>. TelemetryDeck stops at once and is not started at the next launch.</p>
+
+    <h2>Crash Reports (Sentry)</h2>
+    <p><strong>What:</strong> When "Send crash reports" is on and the app crashes or hits an unexpected error, it sends Sentry a technical report: the error and stack trace, the device model, iOS version, app version, memory and performance measurements, and a short trail of the screens and actions just before the problem (for example "opened the Events tab"). The trail never includes what you typed, your location or your name. Reports carry a random installation identifier.</p>
+    <p><strong>Why:</strong> To find and fix crashes. The legal basis is my legitimate interest in keeping the app working. You can object at any time with the switch.</p>
+    <p><strong>Where:</strong> Sentry stores these reports in its EU region (Germany).</p>
+    <p><strong>How to stop:</strong> Turn off <strong>Profile &gt; Privacy &gt; Send crash reports</strong>. Sentry stops at once and is not started at the next launch.</p>
+
+    <h2>Live Events and Your Location (Ticketmaster)</h2>
+    <p>The Events tab shows concerts and screenings near a city.</p>
+    <ul>
+      <li>If you pick a city, the app sends that city's coordinates to Ticketmaster's Discovery API to find events nearby.</li>
+      <li>If you allow location access, the app asks iOS for your approximate location only (reduced accuracy, roughly city level) and sends those coordinates to Ticketmaster instead. The app asks for location only when you use this feature, and only while you are using the app.</li>
+    </ul>
+    <p>Ticketmaster receives the request under its own privacy policy. The app does not store your location history and does not send your location to analytics or crash reports.</p>
+
+    <h2>Content From Other Services</h2>
+    <p>To show films, books, clips and lore, the app downloads content from these services. Each request goes from your device straight to the service, so the service sees your IP address and the item requested, as any website would. The app sends no identifier of its own with these requests.</p>
+    <ul>
+      <li><strong>TMDB</strong> (themoviedb.org): film and TV details and images.</li>
+      <li><strong>YouTube</strong> (Google): video clips, their details and thumbnails. Clips play from YouTube.</li>
+      <li><strong>Open Library</strong> (Internet Archive): book covers.</li>
+      <li><strong>The One API</strong> (the-one-api.dev): character and quote data.</li>
+      <li><strong>The One Wiki to Rule Them All</strong> (lotr.fandom.com, run by Fandom): character text and images.</li>
+    </ul>
+    <p>Each service handles these requests under its own privacy policy.</p>
+
+    <h2>Purchases (Apple)</h2>
+    <p>Fellowship+ is sold through the App Store using Apple's StoreKit. Apple handles the payment and your Apple ID. I never see your name, email or payment details. The app asks Apple whether you have an active subscription so it can unlock features. With analytics on, the app records that a purchase started, finished, failed or was restored, and which plan it was.</p>
+
+    <h2>Ticket Links and Affiliate Commissions</h2>
+    <p>The app never sells tickets. "See on" buttons open the seller's own page in a Safari view inside the app, and some of these links earn me a small commission when you buy tickets. Ticketmaster links carry three labels: the screen you tapped from, the event and the app version. Other ticket links may open through Skimlinks, which redirects to the ticket site and records the click so the seller can pay a commission. What happens on those pages is handled by Skimlinks and the seller under their own privacy policies; the app cannot see it and sends Skimlinks nothing about you.</p>
+
+    <h2>News Alerts (Not Yet Switched On)</h2>
+    <p>Version 3.0 contains optional news alerts, but they are switched off and the app does not send a push token anywhere. This section describes how they will work, so you know before they arrive. If this changes, the date at the top of this page will change too.</p>
+    <p>If you turn on news alerts, the app sends my news server the push notification token Apple issues for this app, your app language, your time zone, the news topics you chose, your Spoiler Shield level for news, your quiet hours and alert frequency, and the app version. Before it registers, the app uses Apple's App Attest to prove that the request comes from a genuine copy of the app; App Attest does not identify you. I use this data only to decide which news alerts to send you and when. I keep a record of which alerts were sent to your device for 90 days so I can limit how many you receive. The server does not collect your name, email address, location or advertising identifier, does not store IP addresses and does not use this data for advertising or tracking. Fly.io, the hosting provider, handles network traffic under its own privacy policy.</p>
+    <p>If you turn news alerts off, turn off notifications for the app, or do not open the app for 180 days, your device's registration is deleted. The server is hosted by Fly.io in the EU (Amsterdam), with encrypted backups stored with Cloudflare R2 in the EU. Backups are kept for 30 days, so a deleted registration can remain in an encrypted backup for up to 30 days before it is removed.</p>
+    <p>News headlines and summaries in the app are written with the help of an AI model (Claude, by Anthropic) from public headlines and feed descriptions, and every item links to its original source. No data about you is sent to the AI model.</p>
+
+    <h2>What the App Does Not Do</h2>
+    <ul>
+      <li>It does not use the advertising identifier (IDFA) and does not ask to track you.</li>
+      <li>It does not show ads or share data with advertisers or data brokers.</li>
+      <li>It does not sell or rent data.</li>
+      <li>It does not collect precise location, contacts, photos, health data or anything you type.</li>
+    </ul>
+
+    <h2>Your Choices and Rights</h2>
+    <ul>
+      <li><strong>Profile &gt; Privacy</strong> has the analytics and crash-report switches, the list of services the app uses and a link to iOS Settings.</li>
+      <li><strong>iOS Settings &gt; Middle Earth</strong> lets you change location, notification, photo and calendar access at any time.</li>
+      <li>Deleting the app removes everything stored on your device. Synced Journey progress stays in your iCloud until you remove it there.</li>
+    </ul>
+    <p>If you are in the EU, the UK or a place with similar laws, you can ask to access, correct or delete data about you, object to its use or complain to your data protection authority. Because the app has no accounts, I usually cannot link data to you, but write to <a href="mailto:hi@alp.me">hi@alp.me</a> and I will do what I can within 30 days.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Since we do not collect any data whatsoever, Middle-earth Explorer is safe for users of all ages.</p>
+    <p>The app is not directed to children under 13 and does not knowingly collect personal information from them.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>If we ever update this privacy policy, we will post the changes on this page with an updated revision date.</p>
+    <p>If this policy changes, the new version will be posted on this page with a new date. Significant changes will also be mentioned in the app's release notes.</p>
 
     <h2>Contact</h2>
-    <p>If you have questions about this privacy policy, please visit our <a href="support.html">support page</a>.</p>
+    <p>Alp Ozcan, <a href="mailto:hi@alp.me">hi@alp.me</a>. You can also visit the <a href="support.html">support page</a>.</p>
   </main>
 
   <footer>
